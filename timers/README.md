@@ -26,7 +26,9 @@ DeltaTime.get()
 Returns the calculated delta time (the duration of the current frame in seconds,
 e.g., 0.016 at 60 FPS).
 
-Usage Example
+---
+
+## Usage Example
 
 ```html
 <script src="https://cdn.jsdelivr.net/gh/MrBobertus/web-utils/timers/deltatime.js"></script>
