@@ -9,7 +9,7 @@
 
         for (let i = 0; i < width; i++) {
             for (let j = 0; j < height; j++) {
-                if (Math.random() < density) {
+                if (Math.random() <= density) {
                     ctx.fillStyle = `rgba(${pixelcolor}, ${(randompixelopacity) ? Math.random() : "1"})`
                     ctx.fillRect(i, j, 1, 1)
                 }
