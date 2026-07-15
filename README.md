@@ -10,42 +10,37 @@
 ## Features
 
 * **Zero Dependencies** - pure vanilla JavaScript with no bloated external packages
-* **Isolated Namespacing** - wrapped in IIFE structures so variables never conflict with your other scripts
-* **High Performance** - engineered with flat memory allocations to avoid garbage collection stutters
+* **Isolated Namespacing** - wrapped in IIFE structures so variables never conflict
+* **High Performance** - engineered with flat memory allocations to prevent garbage collection stutters
 * **Instant CDN Delivery** - load any tool directly into your HTML file via jsDelivr
-* **Modular Design** - load only the specific utility folders you actually need for your project
+* **Modular Design** - load only the specific utility folders you actually need
 
 ---
 
 ## Available Utilities
 
-| Utility Folder | Description | CDN Script Link |
-| :--- | :--- | :--- |
-| `/deltatime` | High-precision, frame-rate independent delta timer | [Load Script](https://cdn.jsdelivr.net/gh/MrBobertus/web-utils/deltatime/deltatime.js) |
+| Category | Utility File | Description | Documentation | CDN Script Link |
+| :--- | :--- | :--- | :--- | :--- |
+| **Timers** | `/timers/deltatime.js` | High-precision, frame-rate independent delta timer | [View Docs](./timers/README.md) | [Load Script](https://cdn.jsdelivr.net/gh/MrBobertus/web-utils/timers/deltatime.js) |
+| **Generators** | `/generators/noisegenerator.js` | Resolution-independent procedural noise canvas generator | [View Docs](./generators/README.md) | [Load Script](https://cdn.jsdelivr.net/gh/MrBobertus/web-utils/generators/noisegenerator.js) |
 
 ---
 
-## Quick Start Example: `/deltatime`
+## How to Import a Utility
 
-To load the delta-time utility directly into your browser-based game or animation loop:
+You can load any script from this toolkit using the following **jsDelivr** URL pattern:
 
-```html
-<!-- 1. Load the utility via the jsDelivr CDN -->
-<script src="https://cdn.jsdelivr.net/gh/MrBobertus/cozy-utils/deltatime/deltatime.js"></script>
+```text
+https://cdn.jsdelivr.net/gh/MrBobertus/web-utils/CATEGORY_FOLDER/FILE_NAME.js
+```
 
-<script>
-  function render(timestamp) {
-    requestAnimationFrame(render);
+Simply browse to the specific utility's folder to view its documentation, parameters, and code examples
+Requirements
 
-    // 2. Update the timer with the browser's high-res timestamp
-    DeltaTime.update(timestamp);
+* Any modern web browser supporting ES6 JavaScript
+* No local installation or build tools required
 
-    // 3. Get the precise, smoothed delta time in seconds
-    const dt = DeltaTime.get();
 
-    // Use 'dt' to scale your movement smoothly
-    myElement.position.x += speed * dt;
-  }
-  
-  render();
-</script>
+<a href="https://github.com/MrBobertus">
+<img width="1138" height="188" alt="MRB Labs" src="https://github.com/user-attachments/assets/3fed92ea-8b82-4464-a817-db6e1db8070f" />
+</a>
