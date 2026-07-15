@@ -24,13 +24,6 @@
 | **Timers** | `/timers/deltatime.js` | High-precision, frame-rate independent delta timer | [View Docs](./timers/README.md) | [Load Script](https://cdn.jsdelivr.net/gh/MrBobertus/web-utils/timers/deltatime.js) |
 | **Generators** | `/generators/noisegenerator.js` | Resolution-independent procedural noise canvas generator | [View Docs](./generators/README.md) | [Load Script](https://cdn.jsdelivr.net/gh/MrBobertus/web-utils/generators/noisegenerator.js) |
 
-## Available Utilities (testing something becasue of a ivsual md bug please wait a sec)
-
-| Category | Utility File | Description | Documentation | CDN Script Link |
-| :--- | :--- | :--- | :--- | :--- |
-| **Timers** | `/timers/deltatime.js` | High-precision, frame-rate independent delta timer | <a href="./timers/README.md">View Docs</a> | <a href="https://cdn.jsdelivr.net/gh/MrBobertus/web-utils/timers/deltatime.js">Load Script</a> |
-| **Generators** | `/generators/noisegenerator.js` | Resolution-independent procedural noise canvas generator | <a href="./generators/README.md">View Docs</a> | <a href="https://cdn.jsdelivr.net/gh/MrBobertus/web-utils/generators/noisegenerator.js">Load Script</a> |
-
 ---
 
 ## How to Import a Utility
