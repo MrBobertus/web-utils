@@ -20,13 +20,13 @@ Generates and returns an HTMLCanvasElement containing the procedural noise.
 
 | Parameter              | Type    | Default           | Description                                                                     |
 | :--------------------- | :------ | :---------------- | :------------------------------------------------------------------------------ |
-| `width`                | Integer | *Required*        | The internal resolution width of the canvas.                                    |
-| `height`               | Integer | *Required*        | The internal resolution height of the canvas.                                   |
-| `density`              | Float   | `0.5`             | The percentage of pixel coverage (from `0.0` for empty to `1.0` for solid).     |
-| `background`           | String  | `"255, 255, 255"` | The background color formatted as `"R, G, B"`.                                  |
-| `pixelcolor`           | String  | `"0, 0, 0"`       | The noise pixel color formatted as `"R, G, B"`.                                 |
-| `backgroundvisibility` | Boolean | `true`            | Set to `false` to make the canvas background fully transparent.                 |
-| `randompixelopacity`   | Boolean | `true`            | Set to `false` to make noise pixels 100% solid instead of randomized opacities. |
+| `width`                | Integer | *Required*        | The internal resolution width of the canvas                                    |
+| `height`               | Integer | *Required*        | The internal resolution height of the canvas                                   |
+| `density`              | Float   | `0.5`             | The percentage of pixel coverage (from `0.0` for empty to `1.0` for solid)     |
+| `background`           | String  | `"255, 255, 255"` | The background color formatted as `"R, G, B"`                                  |
+| `pixelcolor`           | String  | `"0, 0, 0"`       | The noise pixel color formatted as `"R, G, B"`                                 |
+| `backgroundvisibility` | Boolean | `true`            | Set to `false` to make the canvas background fully transparent                 |
+| `randompixelopacity`   | Boolean | `true`            | Set to `false` to make noise pixels 100% solid instead of randomized opacities |
 
 Usage Examples
 
