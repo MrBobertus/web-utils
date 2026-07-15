@@ -28,7 +28,9 @@ Generates and returns an HTMLCanvasElement containing the procedural noise.
 | `backgroundvisibility` | Boolean | `true`            | Set to `false` to make the canvas background fully transparent                 |
 | `randompixelopacity`   | Boolean | `true`            | Set to `false` to make noise pixels 100% solid instead of randomized opacities |
 
-Usage Examples
+---
+
+## Usage Examples
 
 **Example A: **Standard 2D Canvas (Drawing on a background)
 
